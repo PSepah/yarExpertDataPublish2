@@ -11,6 +11,7 @@
     "economicVar": [
         {
             "id":"UncertaintyIndex",
+            "uncerAdjust":8.98,
             "caption":"شاخص نااطمینانی",
             "image":"assets/images/uncert.png",
             "paragraph":[
@@ -66,6 +67,7 @@
         },
         {
             "id":"OilSale",
+            "uncerAdjust":25.76,
             "caption":"رشد بدهی دولت به نظام بانکی",
             "image":"assets/images/oilPrice.png",
             "paragraph":[
@@ -114,6 +116,7 @@
         },
         {
             "id":"OilExport",
+            "uncerAdjust":0.48,
             "caption":"صادرات نفت ایران",
             "image":"assets/images/oilExport.png",
             "paragraph":[
@@ -166,6 +169,7 @@
         },
         {
             "id":"LiquidityGrowth",
+            "uncerAdjust":14.64,
             "caption":"رشد نقدینگی",
             "image":"assets/images/monyGrow.png",
             "paragraph":[
@@ -218,6 +222,7 @@
         },
         {
             "id":"CurrencyGrowth",
+            "uncerAdjust":167.802,
             "caption":"نرخ ارز",
             "image":"assets/images/currencyRate.png",
             "paragraph":[
@@ -270,6 +275,7 @@
         },
         {
             "id":"RateOfReturnInTheDebtMarket",
+            "uncerAdjust":3.97,
             "caption":"نرخ بازده در بازار بدهی",
             "image":"assets/images/nerxBazdeh.PNG",
             "paragraph":[

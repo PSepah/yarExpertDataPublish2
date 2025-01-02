@@ -7,6 +7,7 @@
     "economicVar": [
         {
             "id":"InfloationRate",
+            "uncerAdjust":14.707,
             "caption":"نرخ تورم",
             "image":"assets/images/infolation.png",
             "paragraph":[
@@ -55,6 +56,7 @@
         },
         {
             "id":"EconomicGrowthRate",
+            "uncerAdjust":6.218,
             "caption":"نرخ رشد اقتصادی",
             "image":"assets/images/economicGrowRate.png",
             "paragraph":[
