@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/section/section.component.css"],
+  "sourcesContent": ["section {\r\n    padding: 0px 0px;\r\n    margin: 20px 10px;\r\n    background-color: #f4f4f4;\r\n    border: 1px solid #ddd;\r\n    border-radius: 4px;\r\n}\r\n.section-image {\r\n  width: 100%;\r\n  max-height: 500px; /* Maintain the aspect ratio */\r\n  margin: 0 auto;\r\n  display: block;\r\n  border-radius: 8px;\r\n}\r\nsection h1 {\r\n    margin: 0 0;\r\n    font-size: larger;\r\n    font-weight: bold;\r\n}\r\nsection p{\r\n   font-size: medium;\r\n}\r\np {\r\n    text-align:justify !important;\r\n  }\r\n\r\n  h1 {\r\n    margin: 0 0;\r\n    font-size: medium;\r\n    font-weight: bold;\r\n    max-height: 45px;\r\n  }"],
+  "mappings": "AAAA,gBACa,EADb,OAEY,KAAK,KACb,iBAAkB,QAClB,OAAQ,IAAI,MAAM,KAJtB,cAKmB,GACnB,CACA,CAAC,cACC,MAAO,KACP,WAAY,MATd,OAUU,EAAE,KACV,QAAS,MAXX,cAYiB,GACjB,CACA,QAAQ,GAdR,OAeY,EACR,UAAW,OACX,YAAa,GACjB,CACA,QAAQ,EACL,UAAW,MACd,CACA,EACI,WAAW,iBACb,CAEA,GA1BF,OA2BY,EACR,UAAW,OACX,YAAa,IACb,WAAY,IACd",
+  "names": []
+}

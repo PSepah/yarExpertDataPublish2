@@ -1,0 +1,107 @@
+{
+    "menu":[
+        {"caption":"نرخ تورم","icon":"","link":"InfloationRate"},
+        {"caption":"نرخ رشد اقتصادی","icon":"","link":"EconomicGrowthRate"},
+        {"caption":"گردآوری و ارسال اطلاعات","icon":"","link":"sendLink"}
+    ],
+    "economicVar": [
+        {
+            "id":"InfloationRate",
+            "uncerAdjust":14.707,
+            "caption":"نرخ تورم",
+            "image":"assets/images/infolation.png",
+            "paragraph":[
+                {
+                    "bold":"تورم نقطه به نقطه که در فصل تابستان اندکی رو به کاهش نهاده بود در فصل پاییز دوباره افزایش یافت. ",
+                    "regular":"نرخ تورم نقطه به نقطه در طی سال جاری تغییرات اندکی را شاهد بوده است و از ۳۱.۹ درصد در ابتدای سال به ۳۱.۲ درصد در پایان تابستان و نهایتا ۳۲.۵ درصد در پایان آبان ماه رسید. در این مدت مقدار تورم متوسط دوازده ماهه نیز با یک سیر نزولی مداوم از ۳۶.۱ درصد در ابتدای سال به ۳۳.۱ درصد کاهش یافته است. علی رغم همه مشاهدات فوق بعید به نظر می رسد که این روند کاهشی تا پایان سال نیز همچنان ادامه یابد."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ تورم","defVal":0,"valType":""},{"min":0,"max":100,"value":32.3,"defVal":40.2,"valType":"number"},{"min":0,"max":100,"value":32.5,"defVal":31.4,"valType":"number"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ تورم","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }               
+        },
+        {
+            "id":"EconomicGrowthRate",
+            "uncerAdjust":6.218,
+            "caption":"نرخ رشد اقتصادی",
+            "image":"assets/images/economicGrowRate.png",
+            "paragraph":[
+                {
+                    "bold":"آهنگ کاهشی تورم نقطه به نقطه در فصل تابستان کند شد در حالی که رشد اقتصادی کاهش یافت. ",
+                    "regular":"روند نزولی تورم نقطه به نقطه که در زمستان ۱۴۰۱ از اوج ۵۴.۰ درصدی آغاز و به ۳۱.۹ درصد در بهار ۱۴۰۳ رسیده بود، در فصل تابستان ۱۴۰۳روند نزولی نرخ رشد اقتصادی برای همه بخش ها شامل بخش نفت تورم از ابتدای سال کاهش یافته و از ۴.۶ درصد در فصل بهار به ۴ درصد در فصل پاییز رسیده است. همچنین نرخ رشد اقتصادی بدون نفت که تا فصل تابستان به ۲.۸ درصد رسیده بود بر پایه کنون یابی که به کمک شاخص های پیشاهنگ برآورد می شود نشان دهنده یک روند کاهنده برای رشد بدون نفت تا سطح ۲.۶ درصد می باشد."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید.  حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":4.0,"defVal":4.3,"valType":"number"},{"min":0,"max":100,"value":3.4,"defVal":4,"valType":"number"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ اشانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }               
+        }
+    ]
+}
