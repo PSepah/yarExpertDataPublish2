@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/dialog-message/dialog-message.component.css"],
-  "sourcesContent": ["body {\r\n    font-family: 'vazirmatn', sans-serif;\r\n}\r\n.error-title {\r\n    color: red;\r\n  }\r\n  \r\n  .success-title {\r\n    color: green;\r\n  }\r\nh2 {\r\n    font-family: 'vazirmatn',sans-serif;\r\n    font-size: 1.2em;\r\n    text-align:center;\r\n    margin-top: 5px;\r\n}\r\n\r\np {\r\n    font-family: 'vazirmatn',sans-serif;\r\n    text-justify: auto;\r\n\r\n}"],
-  "mappings": "AAAA,KACI,YAAa,SAAW,CAAE,UAC9B,CACA,CAAC,YACG,MAAO,GACT,CAEA,CAAC,cACC,MAAO,KACT,CACF,GACI,YAAa,SAAW,CAAC,WACzB,UAAW,MACX,WAAW,OACX,WAAY,GAChB,CAEA,EACI,YAAa,SAAW,CAAC,WACzB,aAAc,IAElB",
-  "names": []
-}
